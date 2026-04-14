@@ -1,4 +1,26 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+Makinom 2.23.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+New:
+- Game Controls: Pause Settings: 'Block Player Controls' and 'Block Camera Controls' settings available. Blocking controls when the game is paused is now optional. By default enabled (previous behaviour).
+- UI Settings: Drag/Drop Settings: 'Reset All Inputs' setting available when using the 'Cancel Drag Key'. Optionally reset all inputs instead of only the cancel drag key. This can be needed in case you use the same input source on different input keys and want all to be reset.
+- UI Settings: Exit Game Question: 'Block Settings' and 'Pause Settings' available. Optionally block controls, notfications, etc. or pause the game/change the timescale while showing the exit game question.
+- Save Game Settings: Delete File Question: 'Block Settings' and 'Pause Settings' available. Optionally block controls, notfications, etc. or pause the game/change the timescale while showing the exit game question.
+- Schematics: Pause Game Time: 'Pause Game Time' node available in 'Game > Game' nodes. Pauses or unpauses the game time.
+- General Conditions, Component Conditions, HUD Conditions: General Condition Template: 'Use Call Objects' setting available. Optionally use the user/target of the original call instead of defining a user and target.
+
+Changes:
+- Node Editor: Search: Searching for added nodes now also takes the optional override name into account.
+
+Fixes:
+- Unity UI: UI Boxes, HUDs: Fixed an issue where closing and opening UI after changing the resolution of the running game could lead to wrong UI placement.
+- Unity UI: UI Boxes: Fixed an issue where closing a UI box could cause an error if an input has been destroyed.
+- Unity UI: UI Boxes: Fixed an issue where accepting a UI box with choices without a selected choice could cause an error.
+- Unity UI: Dragging: Fixed an issue where starting a drag with left and right mouse button used together opened 2 drag notifications.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 Makinom 2.22.0
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 

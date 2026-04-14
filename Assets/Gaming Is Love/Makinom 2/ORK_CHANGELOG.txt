@@ -1,4 +1,68 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+ORK Framework 3.24.0 NEXT QUEST
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+New:
+- Quests: Quest Text: 'Finished Quest Text' and 'Failed Quest Text' settings available. Optionally use a different quest text when the quest is finished or has failed. New global text codes for showing those texts are also available.
+- Quests, Quest Tasks: Rewards: 'Use Conditions' settings available in 'Experience Rewards, 'Normal Status Value Rewards' and 'Item Rewards'. Optionally use conditions to check if a reward will be given. If condition's are not valid, the reward will not be displayed by quest layouts or HUDs. Conditions use the player combatant for combatant related checks.
+- Quest Tasks: Requirements: Items, Enemy Kills, Counts: 'Use Conditions' settings available. Optionally use conditions to determine if a requirement is used. The conditions use the player combatant for checks (e.g. 'Combatant Status' conditions). Requirements with failed conditions will not be listed in quest layouts or HUDs.
+- Quest Tasks: Requirements: Items: 'Count Conditions' settings available. Optionally use conditions to determine if an item should increase the count. The item's variables are available as 'Local' variable origin, the item is available as local selected data via the data key 'action'.
+- Quest Tasks: Requirements: Enemy Kills: 'Count Conditions' settings available. Optionally use conditions to determine if a kill should increase the count. The conditions will use the killed enemy combatant for checks (e.g. 'Combatant Status' conditions).
+- Quest Tasks: Requirements: Enemy Kills: 'Kill Type' setting available, replacing 'Use Combatant Type'. Enemy kills can now also count by 'Faction' and 'Class' beside the already available 'Combatant' and 'Combatant Type'. Previous settings will be updated automatically.
+- Quest Tasks: Requirements: Counts: 'Is Variable' setting available. Optionally use a global int variable instead of a count bound to a tag. Changes to the global variable will automatically update the count. The 'Change Task Count' node in schematics will not affect counts using a variable.
+- Quest Layouts: Rewards: New text codes available. Use '<chance>', '<chance1>' and '<chance2>' to display the chance of a reward (with formatting '0', '0.0' and '0.00').
+- Quest Layouts: Rewards: 'Ignore Conditions' settings available. Optionally ignore reward conditions and display all rewards even with failed conditions.
+- Status Conditions: Player Group ID: 'Player Group ID' condition type available. Checks if the combatant is or isn't in a defined player group (via player group ID).
+- Inventory Settings: Mark New Content: 'Deselection' unmark new data type available. Unmarks new content when deselecting it's button in a menu (i.e. changing selection to a different button).
+- UI Settings: HUD Settings: Turn Flash HUD: 'Color Key' setting available. Define the key that will be used for the color change. Only HUDs with a matching key will change color.
+- HUDs: Combatant, Combatant Object, Latest Turn, Timebar, Turn Order: 'Color Key' setting available. Optionally define a key to only affect a HUD by color changes (e.g. damage flash, turn blinking, etc.) when a matching key is used. Leave empty to be affected by any non-key color change.
+- HUDs: Combatant Object, Object: Raycast Visibility: 'Raycast Visibility' settings available. Optionally check if the HUD should be displayed by raycasting from the camera to the object it's displayed on.
+- Combatant Highlights: Fade HUD Color: 'Color Key' setting available. Define the key that will be used for the color change. Only HUDs with a matching key will change color.
+- Battle Menus: Description: 'Show In Target Selection' setting available. If disabled, the description will not be displayed while selecting a target. By default enabled (previous behaviour).
+- Battle End: Loot Dialogues: Simple: Experience Text (Total), Normal Status Value Text (Total): New text codes available. Use '<minvalue>' to show the lowest and '<maxvalue>' to show the highest single combatant's value change.
+- Status Values: Flying Texts: Flash HUD: 'Color Key' setting available. Define the key that will be used for the color change. Only HUDs with a matching key will change color.
+- Status Values: Consumable: Barrier Settings: 'No 0 Damage' setting available. The actual status value will not receive any change if this barrier reduces the remaining damage to 0. If disabled, the actual status value will receive a 0 damage change (e.g. causing flying texts to appear).
+- Schematics: Stop Grid Move Selection: 'Stop Grid Move Selection' node available in 'Battle > Grid Path' nodes. Stops the current grid move selection, canceling it. This can lead to the combatant's battle menu or previous target selection being shown again.
+- Schematics: Change Task Enemy Kill Count: 'Faction' setting available when not changing for all combatants. This'll be used in case a 'Faction' kill requirement is used by a quest task.
+- Unity UI: HUD First Quest Content Provider Component: 'HUD First Quest (Content Provider)' component available. Provides the first found quest (e.g. first active quest) as content, doesn't require any parent content provider.
+- Unity UI: HUD First Quest Task Content Provider Component: 'HUD First Quest Task (Content Provider)' component available. Requires a quest as content and provides the quest's first found quest task (e.g. first active task) as content.
+- Unity UI: HUD Quest Reward Text Content: New text codes available. Use '<chance>', '<chance1>' and '<chance2>' to display the chance of a reward (with formatting '0', '0.0' and '0.00').
+- Unity UI: HUD Quest Reward List: 'Ignore Conditions' settings available. Optionally ignore reward conditions and display all rewards even with failed conditions.
+
+Changes:
+- Combatants: Object Variables: The initial variable changes now have the combatant available (e.g. to use in formulas or access variables).
+- Combatants, Status Effects: Changed how removing status effects is handled to prevent issues with ending effects interfering with each other.
+- Combatants, Move AIs: Saved combatants (via 'Remember Combatants' settings in 'Combatant Spawner' or 'Add Combatant' components) will now remember their original spawn position for the move AI's range checks.
+- Available Equipment: Available Item Types: Item type checks now take secondary item types of an equipment into account.
+- Quest Tasks: Requirements: Enemy Kills: 'Kill Type' setting replaces 'Use Combatant Type'.
+- Factions, Save Games: Loading a save game that doesn't contain a faction's sympathy values (e.g. faction added after saving) will now initialize the faction's sympathy to the defined settings instead of starting with 0. 
+- Item Collectors: Box: Item boxes can now use loot and defined items together to define their content.
+- ORK Handler Inspector: The inspector for the 'ORK Handler' component (on the '_Makinom' game object in a running game) now shows current faction sympathy informations.
+
+Fixes:
+- Camera Controls: Top Down Border, Mouse: Fixed an issue where disabling camera controls while mouse input is used could lead to the input continuing until the mouse input is used again when the camera control was enabled again.
+- Option Categories: Fixed an issue where using 'Screen Resolution (Dropdown)' and 'Refresh Rate (Dropdown)' together could lead to one or the other not being set when not using 'Live Update'.
+- Menu Screens: Crafting List: Fixed an issue where some ingredients where returned to the inventory instead of consumed.
+- Menu Screens: Equipment: Fixed an issue where dragging and equipment from an equipment slot and dropping it on the same slot could lead to a copy of the equipment being added to the inventory.
+- Menu Screens: Equipment: Sub Menu: Fixed an issue where using an 'Always Open' sub menu only in equipment could lead to the sub menu being closed and opened again when using it to equip or unequip.
+- Menu Screens: Group: Fixed an issue where enabling the title for box 1 and not for box 2 will cause an error when displaying box 2.
+- Crafting Recipes: Fixed an issue where 'Item Type' ingredients could lead to a recipe not being craftable.
+- Equipment Slots: Fixed an issue where hidden equipment slots displayed console texts and notifications.
+- Shops: Fixed an issue where items sold to a shop could be lost when visiting the shop again (when saving items sold to the shop and resetting buyback price).
+- Shops, Advanced Prices: Fixed an issue where advanced prices using currencies converted them instead of using the defined currency.
+- Move AI: Fixed an issue where combatants could resume their waypoint movement at the start of a battle.
+- Active Time Battles: Fixed an issue where multiple actions where used at the same time if the combatants hat the exact sime timebar value (and not using dynamic combat).
+- Grid Battles: Move Command: Waypoints: Fixed an issue where the 'Mouse Modifier Key' was ignored when using 'Own Mouse/Touch' controls.
+- Grid Battles: Move Command: Waypoints: Fixed an issue where the remove key could be used multiple times even though the input key was set to only use 'Down' input handling.
+- Grid Battles, Shortcut Slots: Fixed an issue where activating the grid move command via shortcut slot, changing to a different action and back could lead to wrong grid highlights.
+- Grid Battles, Shortcut Slots: Fixed an issue where starting grid movement using a shortcut slot didn't return to the battle menu when multiple actions where allowed.
+- Schematics: Spawn Combatant: Fixed an issue where spawning a combatant from selected data could lead to spawning the combatant's group leader instead of the combatant itself.
+- Schematics: Fixed an issue where certain nodes in 'Battle > Action' prevented displaying the settings of the following nodes when multiple nodes where selected. This could lead to errors and missing settings.
+- Item Collectors: Box: Fixed an issue where the 'Collected Schematic' setting was also available for 'Box' type item collectors instead of being only for 'Single' items.
+- Unity UI: HUD Navigation Bar Component: Fixed an issue where 'Combatant Type' and faction checks where ignored.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 ORK Framework 3.23.0
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
