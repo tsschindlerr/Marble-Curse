@@ -18,8 +18,8 @@ MonoBehaviour:
   editorHelpLanguageTexts: {fileID: 0}
   section: 7
   subSection: 5
-  tabIndex: 0
-  scrollY: 540
+  tabIndex: 1
+  scrollY: 0
   foldoutLimit: 
   helpDrag: 220
   subSectionDrag: 250
