@@ -485,7 +485,7 @@ MonoBehaviour:
       <settings>
 
       <_float
-      value="0" />
+      value="1" />
 
       <_string>
 
@@ -658,7 +658,7 @@ Transform:
   m_GameObject: {fileID: 444271746}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.39, y: -2.71, z: 0}
+  m_LocalPosition: {x: 1.16, y: -3.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1055,7 +1055,7 @@ Transform:
   m_GameObject: {fileID: 742611813}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.44, y: -0.36, z: 0}
+  m_LocalPosition: {x: 1.21, y: -0.99, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1415,7 +1415,7 @@ MonoBehaviour:
 '
     lookUp:
       assets:
-      - {fileID: 11400000, guid: 8a0675df5767af54a8de1688992e1ed5, type: 2}
+      - {fileID: 11400000, guid: e2cfdefa6dea82e4c95557359551321f, type: 2}
     encrypted: 0
     stringData: 
 --- !u!4 &1145845518
@@ -1799,7 +1799,7 @@ MonoBehaviour:
       <settings>
 
       <_float
-      value="0" />
+      value="1" />
 
       <_string>
 
@@ -3110,7 +3110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Makinom2.dll::GamingIsLove.Makinom.Components.SpawnPoint
   useSceneID: 1
-  sceneID: 2
+  sceneID: 1
   serialize_setting:
     name: settings
     byteData: 
