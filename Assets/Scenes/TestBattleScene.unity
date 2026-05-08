@@ -119,125 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &444271746
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 444271748}
-  - component: {fileID: 444271747}
-  - component: {fileID: 444271749}
-  m_Layer: 0
-  m_Name: npc_placeholder_0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &444271747
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 444271746}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 600161709123900043, guid: 27329b3829df43d47b2ed3e9bbe584c5, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.62, y: 0.72}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!4 &444271748
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 444271746}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.39, y: -2.71, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &444271749
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 444271746}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,7 +340,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &742611813
+--- !u!1 &889862271
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -467,90 +348,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 742611815}
-  - component: {fileID: 742611814}
+  - component: {fileID: 889862273}
+  - component: {fileID: 889862272}
   m_Layer: 0
-  m_Name: chest_placenholder_0
+  m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &742611814
-SpriteRenderer:
-  serializedVersion: 2
+--- !u!156049354 &889862272
+Grid:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742611813}
+  m_GameObject: {fileID: 889862271}
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: -6361735154287314699, guid: 4412a1f3706dbd44183b070c54057587, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.02, y: 0.82}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!4 &742611815
+  m_CellSize: {x: 1, y: 1, z: 0}
+  m_CellGap: {x: 0, y: 0, z: 0}
+  m_CellLayout: 0
+  m_CellSwizzle: 0
+--- !u!4 &889862273
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742611813}
+  m_GameObject: {fileID: 889862271}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.44, y: -0.36, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1779620107}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &759452477
+--- !u!1 &1040789930
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -558,8 +393,91 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 759452479}
-  - component: {fileID: 759452478}
+  - component: {fileID: 1040789932}
+  - component: {fileID: 1040789931}
+  m_Layer: 0
+  m_Name: Spawn Point 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1040789931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040789930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1562151128, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Makinom2.dll::GamingIsLove.Makinom.Components.SpawnPoint
+  useSceneID: 1
+  sceneID: 0
+  serialize_setting:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata layerMask="-1" >
+
+      <_float distance="100" />
+
+      <_bool
+      placeOnGround="True" />
+
+      <_floatarrays>
+
+      <offset 0 0 0 />
+
+      </_floatarrays>
+
+      <useRotation>
+
+      <_bool
+      x="False" y="False" z="False" />
+
+      </useRotation>
+
+      <useScale>
+
+      <_bool
+      x="False" y="False" z="False" />
+
+      </useScale>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+    stringData: 
+--- !u!4 &1040789932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040789930}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.146569, y: -2.65, z: -185.57422}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1145845516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1145845518}
+  - component: {fileID: 1145845517}
   m_Layer: 2
   m_Name: Music Player
   m_TagString: Untagged
@@ -567,13 +485,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &759452478
+--- !u!114 &1145845517
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759452477}
+  m_GameObject: {fileID: 1145845516}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1179541511, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
@@ -859,600 +777,19 @@ MonoBehaviour:
 '
     lookUp:
       assets:
-      - {fileID: 11400000, guid: 9bb0ffa5badef2c4690a3088e2aa0a3a, type: 2}
+      - {fileID: 11400000, guid: 8a0675df5767af54a8de1688992e1ed5, type: 2}
     encrypted: 0
     stringData: 
---- !u!4 &759452479
+--- !u!4 &1145845518
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759452477}
+  m_GameObject: {fileID: 1145845516}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.3, y: 4.51, z: -104.64844}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &778948373
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 778948375}
-  - component: {fileID: 778948374}
-  m_Layer: 0
-  m_Name: Spawn Point 0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &778948374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778948373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1562151128, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Makinom2.dll::GamingIsLove.Makinom.Components.SpawnPoint
-  useSceneID: 1
-  sceneID: 0
-  serialize_setting:
-    name: settings
-    byteData: 
-    xmlData: '<xmldata layerMask="-1" >
-
-      <_float distance="100" />
-
-      <_bool
-      placeOnGround="True" />
-
-      <_floatarrays>
-
-      <offset 0 0 0 />
-
-      </_floatarrays>
-
-      <useRotation>
-
-      <_bool
-      x="False" y="False" z="False" />
-
-      </useRotation>
-
-      <useScale>
-
-      <_bool
-      x="False" y="False" z="False" />
-
-      </useScale>
-
-      </xmldata>
-
-'
-    lookUp:
-      assets: []
-    encrypted: 0
-    stringData: 
---- !u!4 &778948375
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778948373}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.78, y: -0.6547127, z: -57.90039}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &889862271
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 889862273}
-  - component: {fileID: 889862272}
-  m_Layer: 0
-  m_Name: Grid
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!156049354 &889862272
-Grid:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889862271}
-  m_Enabled: 1
-  m_CellSize: {x: 1, y: 1, z: 0}
-  m_CellGap: {x: 0, y: 0, z: 0}
-  m_CellLayout: 0
-  m_CellSwizzle: 0
---- !u!4 &889862273
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889862271}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1779620107}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1285455686
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1285455689}
-  - component: {fileID: 1285455688}
-  - component: {fileID: 1285455687}
-  m_Layer: 0
-  m_Name: Scene Changer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &1285455687
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285455686}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.16035366}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 17.409502}
-  m_EdgeRadius: 0
---- !u!114 &1285455688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285455686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -487947594, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Makinom2.dll::GamingIsLove.Makinom.Components.SceneChanger
-  serialize_conditionSetting:
-    name: conditionSetting
-    byteData: 
-    xmlData: '<xmldata autoCheckType="0" conditionFail="0" needed="0" >
-
-      <_float
-      destroyCheckDelay="1" />
-
-      <_bool repeatCheck="False" />
-
-      <_subarrays>
-
-      <condition>
-
-      </condition>
-
-      </_subarrays>
-
-      </xmldata>
-
-'
-    lookUp:
-      assets: []
-    encrypted: 0
-    stringData: 
-  serialize_startSetting:
-    name: startSettings
-    byteData: 
-    xmlData: '<xmldata>
-
-      <_bool turnStartingObject="False" turnMachineObject="False"
-      turnRestoreMachineObject="False" />
-
-      <machineType>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </machineType>
-
-      <autoStartSetting>
-
-      <_float
-      autoStartDelay="0" repeatDelay="0" />
-
-      <_bool isStart="False" isEnable="False"
-      isDisable="False" isDestroy="False" isLevelWasLoaded="False" repeatExecution="False"
-      />
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.Schematics.AutoMachineStartSetting]]></_type>
-
-      </_string>
-
-      <_subarrays>
-
-      <notifyStart>
-
-      </notifyStart>
-
-      </_subarrays>
-
-      </autoStartSetting>
-
-      <interactStartSetting
-      needed="0" >
-
-      <_float maxInteractionDistance="3" maxMouseDistance="3"
-      />
-
-      <_bool isInteract="False" isKeyPress="False" isDrop="False" isMouseDown="False"
-      isMouseDrag="False" isMouseUp="False" isMouseUpAsButton="False" isMouseEnter="False"
-      isMouseOver="False" isMouseExit="False" setInteractionDistance="False" setMouseDistance="False"
-      keyPressInTrigger="False" keyPressWhileColliding="False" startByRoot="False"
-      />
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.Schematics.InteractionMachineStartSetting]]></_type>
-
-      </_string>
-
-      <inputKey>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </inputKey>
-
-      <_subarrays>
-
-      <dropCondition>
-
-      </dropCondition>
-
-      </_subarrays>
-
-      </interactStartSetting>
-
-      <moveToInteraction>
-
-      <_float
-      interactionRadius="1" stopDistance="1" />
-
-      <_bool useMoveToInteraction="True"
-      overrideInteractionRadius="False" setInteractionRadius="False" overrideStopDistance="False"
-      overrideMoveToSpeed="False" />
-
-      <moveToSpeed>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_float
-      value="5" />
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
-
-      </_string>
-
-      </settings>
-
-      <mathFunction>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </mathFunction>
-
-      </moveToSpeed>
-
-      </moveToInteraction>
-
-      <triggerStartSetting
-      needed="1" layerMask="-1" >
-
-      <_bool isTriggerEnter="True" isTriggerStay="False"
-      isTriggerExit="False" startByCollider="True" startByTrigger="True" startByRoot="False"
-      startByOther="False" limitLayers="False" />
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.Schematics.TriggerMachineStartSetting]]></_type>
-
-      </_string>
-
-      </triggerStartSetting>
-
-      <collisionStartSetting
-      needed="1" layerMask="-1" >
-
-      <_bool isCollisionEnter="False" isCollisionStay="False"
-      isCollisionExit="False" isParticleCollision="False" isControllerColliderHit="False"
-      startByRoot="False" startByOther="False" limitLayers="False" />
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.Schematics.CollisionMachineStartSetting]]></_type>
-
-      </_string>
-
-      </collisionStartSetting>
-
-      </xmldata>
-
-'
-    lookUp:
-      assets: []
-    encrypted: 0
-    stringData: 
-  serialize_setting:
-    name: settings
-    byteData: 
-    xmlData: '<xmldata>
-
-      <_float volume="1" />
-
-      <_bool blockPlayerControl="True"
-      blockCameraControl="True" useSpawnOffset="False" useCustomChangeType="False"
-      waitForAudio="False" ownScreenFade="False" />
-
-      <_string>
-
-      <customChangeType><![CDATA[]]></customChangeType>
-
-      </_string>
-
-      <ignoreOffsetAxes>
-
-      <_bool
-      x="False" y="False" z="False" />
-
-      </ignoreOffsetAxes>
-
-      <changeAfterSetting>
-
-      <_bool
-      setVariables="False" />
-
-      </changeAfterSetting>
-
-      <_subarrays>
-
-      <target>
-
-      <0
-      positionType="1" loadType="0" >
-
-      <_bool reloadScene="False" />
-
-      <sceneName>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <value><![CDATA[TestScene1]]></value>
-
-      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </sceneName>
-
-      <spawnID>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_float
-      value="0" />
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
-
-      </_string>
-
-      </settings>
-
-      <mathFunction>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </mathFunction>
-
-      </spawnID>
-
-      <scale>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.Vector3Value_ValueType`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_floatarrays>
-
-      <value
-      1 1 1 />
-
-      </_floatarrays>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.Vector3Value_ValueType`1]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </scale>
-
-      </0>
-
-      </target>
-
-      </_subarrays>
-
-      </xmldata>
-
-'
-    lookUp:
-      assets: []
-    encrypted: 0
-    stringData: 
---- !u!4 &1285455689
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285455686}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.23, y: -2.3353233, z: -125.50781}
+  m_LocalPosition: {x: 11.6, y: 2.53, z: -104.64844}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2569,64 +1906,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1986871247
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1986871249}
-  - component: {fileID: 1986871248}
-  m_Layer: 0
-  m_Name: ORK Game Starter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1986871248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1986871247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 641052753, guid: 2f433824042009943be1767c00adb2ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ORKFramework3.dll::GamingIsLove.ORKFramework.Components.ORKGameStarter
-  useAssetBundle: 0
-  project: {fileID: 11400000, guid: 6874fa4c6abe88b41ac2eff9b9d714ae, type: 2}
-  assetBundle:
-    assetName: 
-    assetBundleName: 
-    pathOrigin: 1
-    path: 
-    loadType: 0
-    loadAsync: 0
-  startGame: 1
-  schematicAsset: {fileID: 0}
-  loadStartMenuScene: 0
-  callStartMenu: 0
-  callAfter: 0
---- !u!4 &1986871249
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1986871247}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.25, y: 2.9, z: -28.947266}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2634,9 +1913,5 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 889862273}
-  - {fileID: 742611815}
-  - {fileID: 1986871249}
-  - {fileID: 778948375}
-  - {fileID: 444271748}
-  - {fileID: 759452479}
-  - {fileID: 1285455689}
+  - {fileID: 1145845518}
+  - {fileID: 1040789932}
