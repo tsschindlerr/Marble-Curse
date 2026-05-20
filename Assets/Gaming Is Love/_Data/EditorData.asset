@@ -17,9 +17,9 @@ MonoBehaviour:
   lastEncrypted: 0
   editorHelpLanguageTexts: {fileID: 0}
   section: 3
-  subSection: 0
+  subSection: 1
   tabIndex: -1
-  scrollY: 0
+  scrollY: 1600
   foldoutLimit: 
   helpDrag: 220
   subSectionDrag: 250
@@ -36,6 +36,9 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   schematicAsset:
+  - {fileID: 11400000, guid: 960af0ef8c50bf8409c691bd59ac6692, type: 2}
+  - {fileID: 11400000, guid: d9f9ff05d3f8b054c9f80c85e01e5d4d, type: 2}
+  - {fileID: 11400000, guid: e9a17257a934aee4e8d98353399b37d0, type: 2}
   - {fileID: 11400000, guid: b736b690d7e171245b43e863f2a6a435, type: 2}
   dialogueImportSettings:
     name: 
@@ -46,7 +49,8 @@ MonoBehaviour:
     encrypted: 0
   variablesDefined: []
   variablesEditor: []
-  variablesSchematic: []
+  variablesSchematic:
+  - ui
   variablesScene: []
   variablesPrefab: []
   foldoutKeys: []
