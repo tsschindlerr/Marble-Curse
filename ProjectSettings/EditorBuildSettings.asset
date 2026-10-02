@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BattleScene1.unity
     guid: 6a8f00cb2e7a35741bf9d66376bfdf46
+  - enabled: 1
+    path: Assets/Scenes/LowerDungeon.unity
+    guid: 9aec5c8f18207324890cc49186b2a2dc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
