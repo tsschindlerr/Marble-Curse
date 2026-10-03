@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 9186e1aef607caf43b68d1b0dfd02505
+guid: 6ea0e87890c61cb4e8c989b2706330d7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4801227835787818748
-    second: enemy1_0
+      213: 30103382468382016
+    second: enemy2-export_0
+  - first:
+      213: -8533506670661292078
+    second: enemy2-export_1
+  - first:
+      213: -753306415217323548
+    second: enemy2-export_2
+  - first:
+      213: -8126031752043051820
+    second: enemy2-export_3
+  - first:
+      213: -8162468721041555857
+    second: enemy2-export_4
+  - first:
+      213: -8919042764317451203
+    second: enemy2-export_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemy1_0
+      name: enemy2-export_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
+        x: 39
+        y: 139
+        width: 12
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +156,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf6b9d5574361a240800000000000000
-      internalID: 4801227835787818748
+      spriteID: 04dc09aedd2fa6000800000000000000
+      internalID: 30103382468382016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy2-export_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 149
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfaece35e4e29980800000000000000
+      internalID: -8533506670661292078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy2-export_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 139
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1d2f97ec7bb85f0800000000000000
+      internalID: -753306415217323548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy2-export_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 141
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4cde1dc298a3f80800000000000000
+      internalID: -8126031752043051820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy2-export_4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 99
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6eb410e1f519be80800000000000000
+      internalID: -8162468721041555857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy2-export_5
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 29
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c17586cd1393480800000000000000
+      internalID: -8919042764317451203
       vertices: []
       indices: 
       edges: []
@@ -161,7 +286,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      enemy1_0: 4801227835787818748
+      enemy2-export_0: 30103382468382016
+      enemy2-export_1: -8533506670661292078
+      enemy2-export_2: -753306415217323548
+      enemy2-export_3: -8126031752043051820
+      enemy2-export_4: -8162468721041555857
+      enemy2-export_5: -8919042764317451203
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
