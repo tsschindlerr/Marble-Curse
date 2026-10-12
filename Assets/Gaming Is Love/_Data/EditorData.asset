@@ -19,7 +19,7 @@ MonoBehaviour:
   section: 9
   subSection: 0
   tabIndex: -1
-  scrollY: 0
+  scrollY: 960
   foldoutLimit: 
   helpDrag: 220
   subSectionDrag: 250
